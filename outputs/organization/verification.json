@@ -1,0 +1,12 @@
+{
+  "checked_at": "2026-10-12T10:32:33.643600+00:00",
+  "original_regular_files_accounted_for": 2621,
+  "original_symlinks_preserved": 24,
+  "original_directories_preserved": 172,
+  "moved_groups": 15,
+  "modified_sources_with_exact_original_backups": 15,
+  "preservation_check": "Original regular files retain device, inode, size, modification time, and permissions; modified source originals are preserved byte-for-byte in backups. Symbolic-link targets and directory inodes are retained.",
+  "python_syntax": "passed",
+  "shell_syntax": "passed",
+  "errors": []
+}

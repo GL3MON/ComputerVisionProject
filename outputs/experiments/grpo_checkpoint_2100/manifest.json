@@ -1,0 +1,13 @@
+{
+  "checkpoint": "/home/harishr/MedGRPO/qwen3-vl-medical-grpo-vision-lora/checkpoint-2100",
+  "base_model": "GL3MON/qwen3-vl-2b-medical-pmcvqa-sft-merged",
+  "cuda_visible_devices": "MIG-be0d4dc8-2244-5ed0-89ec-b674eacb6a9b",
+  "dataset": "pneumoniamnist",
+  "epochs": 20,
+  "attribution_samples": 25,
+  "seed": 3407,
+  "source_scripts": [
+    "classifier_train.py",
+    "generate_analysis_maps.py"
+  ]
+}

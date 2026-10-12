@@ -1,0 +1,12 @@
+{
+  "test_samples": [
+    208,
+    514
+  ],
+  "sft_wrong_rl_right_verified": true,
+  "recomputed_predictions_match_saved_test_predictions": true,
+  "comparison_maps": 2,
+  "raw_maps": 6,
+  "finite_attributions": true,
+  "png_integrity_verified": true
+}

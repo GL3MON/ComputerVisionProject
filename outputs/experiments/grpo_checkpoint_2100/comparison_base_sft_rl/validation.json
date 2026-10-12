@@ -1,0 +1,9 @@
+{
+  "comparison_maps": 25,
+  "raw_maps": 75,
+  "overview_verified": true,
+  "shared_spatial_grid_verified": true,
+  "finite_attributions_and_metrics": true,
+  "rl_maps_matching_previous_same_target": 21,
+  "all_stage_exit_codes_zero": true
+}

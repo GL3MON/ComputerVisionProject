@@ -1,0 +1,28 @@
+{
+  "selection_rule": "SFT prediction differs from true label and RL prediction equals true label",
+  "splits": {
+    "val": {
+      "samples": 524,
+      "sft_wrong_rl_right": [],
+      "sft_right_rl_wrong": [
+        401
+      ]
+    },
+    "test": {
+      "samples": 624,
+      "sft_wrong_rl_right": [
+        208,
+        514
+      ],
+      "sft_right_rl_wrong": [
+        445,
+        614
+      ]
+    }
+  },
+  "label_mapping": {
+    "0": "Normal",
+    "1": "Pneumonia"
+  },
+  "prediction_sources": "test: saved predictions; validation: best classifier applied to saved embeddings"
+}

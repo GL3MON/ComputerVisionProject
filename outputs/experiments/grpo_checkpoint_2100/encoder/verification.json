@@ -1,0 +1,9 @@
+{
+  "vision_adapter_tensor_count": 96,
+  "encoder_tensor_count": 315,
+  "checked_weight": "model.visual.blocks.0.attn.qkv.weight",
+  "merged_weight_matches_base_plus_lora": true,
+  "merged_weight_differs_from_base": true,
+  "merge_precision": "float32 addition followed by bfloat16 assignment (PEFT unsafe merge)",
+  "changed_elements_in_checked_weight": 533184
+}

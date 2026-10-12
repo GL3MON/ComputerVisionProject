@@ -1,0 +1,23 @@
+{
+  "stage_exit_codes": [
+    0,
+    0
+  ],
+  "embedding_shapes": {
+    "train": [
+      4708,
+      2048
+    ],
+    "val": [
+      524,
+      2048
+    ],
+    "test": [
+      624,
+      2048
+    ]
+  },
+  "finite_features_and_attributions": true,
+  "attribution_maps": 25,
+  "vision_lora_merge_verified": true
+}

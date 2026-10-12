@@ -1,0 +1,74 @@
+{
+  "models": {
+    "base": "Qwen/Qwen3-VL-2B-Instruct",
+    "sft": "GL3MON/qwen3-vl-2b-medical-pmcvqa-sft-merged",
+    "rl": "GL3MON/qwen3-vl-2b-medical-pmcvqa-sft-merged"
+  },
+  "rl_checkpoint": "/home/harishr/MedGRPO/qwen3-vl-medical-grpo-vision-lora/checkpoint-2100",
+  "processor": "/home/harishr/MedGRPO/qwen3-vl-medical-grpo-vision-lora/checkpoint-2100",
+  "classifiers": {
+    "base": "/home/harishr/Med/experiments/grpo_checkpoint_2100/comparison_base_sft_rl/base/classifier/linear_classifier_best.pt",
+    "sft": "/home/harishr/Med/experiments/grpo_checkpoint_2100/comparison_base_sft_rl/sft/classifier/linear_classifier_best.pt",
+    "rl": "/home/harishr/Med/experiments/grpo_checkpoint_2100/classifier/linear_classifier_best.pt"
+  },
+  "samples": [
+    208,
+    514
+  ],
+  "split": "test",
+  "device": "MIG-be0d4dc8-2244-5ed0-89ec-b674eacb6a9b",
+  "attribution_target": "true class label for all three models",
+  "method": "absolute gradient times normalized input; mean patch elements; restored Qwen spatial patch order",
+  "visualization": "zero-to-peak normalization independently per map; differences compare relative spatial patterns",
+  "test_metrics": {
+    "base": {
+      "best_epoch": 15,
+      "best_val_accuracy": 0.9465648854961832,
+      "test_accuracy": 0.9038461538461539,
+      "test_weighted_f1": 0.9009915259122615,
+      "test_auroc": 0.979333771641464
+    },
+    "sft": {
+      "best_epoch": 16,
+      "best_val_accuracy": 0.9561068702290076,
+      "test_accuracy": 0.8974358974358975,
+      "test_weighted_f1": 0.893900682863381,
+      "test_auroc": 0.9787420556651326
+    },
+    "rl": {
+      "best_epoch": 19,
+      "best_val_accuracy": 0.9541984732824428,
+      "test_accuracy": 0.8974358974358975,
+      "test_weighted_f1": 0.8940673548118028,
+      "test_auroc": 0.9790707867630944
+    }
+  },
+  "sample_metrics": {
+    "base": {
+      "correct": 0.5,
+      "predicted_confidence": 0.5837171673774719,
+      "attribution_entropy": 0.879712456024985,
+      "top_10_percent_mass": 0.43591101467609406
+    },
+    "rl": {
+      "correct": 1.0,
+      "predicted_confidence": 0.5332326591014862,
+      "attribution_entropy": 0.9114603243872714,
+      "top_10_percent_mass": 0.38401105999946594
+    },
+    "sft": {
+      "correct": 0.0,
+      "predicted_confidence": 0.5167733430862427,
+      "attribution_entropy": 0.9012624411217103,
+      "top_10_percent_mass": 0.405725434422493
+    }
+  },
+  "overview_samples": [
+    208,
+    514
+  ],
+  "prediction_disagreement_samples": [
+    208,
+    514
+  ]
+}

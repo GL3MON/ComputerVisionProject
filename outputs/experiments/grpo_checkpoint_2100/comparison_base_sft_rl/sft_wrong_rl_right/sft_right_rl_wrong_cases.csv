@@ -1,0 +1,4 @@
+split,sample,true_label,true_class,base_prediction,base_correct,base_predicted_confidence,base_true_class_probability,sft_prediction,sft_correct,sft_predicted_confidence,sft_true_class_probability,rl_prediction,rl_correct,rl_predicted_confidence,rl_true_class_probability,sft_wrong_rl_right,sft_right_rl_wrong
+val,401,1,Pneumonia,1,1,0.7641699314117432,0.7641699314117432,1,1,0.515525758266449,0.515525758266449,0,0,0.5012791156768799,0.49872085452079773,0,1
+test,445,1,Pneumonia,1,1,0.6993659734725952,0.6993659734725952,1,1,0.5004610419273376,0.5004610419273376,0,0,0.5190857648849487,0.48091423511505127,0,1
+test,614,0,Normal,0,1,0.5641132593154907,0.5641132593154907,0,1,0.52768474817276,0.52768474817276,1,0,0.5145196318626404,0.4854803681373596,0,1

@@ -1,0 +1,52 @@
+# Python bytecode and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Downloaded datasets (do not ignore generated CSV/JSON/Parquet artifacts)
+data/
+datasets/
+medmnist/
+
+# Download and feature caches
+.cache/
+/outputs/cache/
+/vision_probe_cache/
+
+# Training checkpoints and merged model exports
+checkpoint-*/
+checkpoint/
+checkpoints/
+merged/
+
+# Model weights and serialized training state
+*.safetensors
+*.ckpt
+pytorch_model*.bin
+adapter_model.bin
+model*.pt
+model*.pth
+linear_classifier*.pt
+optimizer.pt
+scheduler.pt
+scaler.pt
+rng_state*.pth
+training_args.bin
+
+# Runtime logs and W&B run data
+*.log
+*.log.*
+*.wandb
+/outputs/logs/
+/wandb/
+
+# Local credentials
+.env
+.env.*
+!.env.example
+
+# Keep generated artifacts: reports, figures, metrics, benchmark JSON,
+# rollout JSONL/Parquet, raw attribution NPY/NPZ, and embeddings.
+# Do not blanket-ignore outputs/, *.pt, *.npy, *.npz, or *.parquet.
