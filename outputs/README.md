@@ -4,7 +4,7 @@ All generated artifacts are grouped here. Every existing file was retained; the 
 
 | Location | Contents |
 | --- | --- |
-| `benchmarks/pmc_vqa/` | Base and SFT PMC-VQA benchmark result JSON files |
+| `benchmarks/pmc_vqa/` | Base and SFT PMC-VQA benchmark result JSON files; [checkpoint 2100 evaluation](benchmarks/pmc_vqa/grpo_checkpoint_2100/README.md) contains the new run and report |
 | `analysis/attention/qwen3vl_attention_maps/` | Vision attention figures |
 | `analysis/attribution/base/` | Base-model attribution figures and metrics |
 | `analysis/attribution/medical/` | Medical-model attribution figures and metrics |
@@ -27,3 +27,7 @@ Training checkpoint directories retain their established paths. Scripts now use 
 See [the checkpoint experiment report](experiments/grpo_checkpoint_2100/REPORT.md) for its results. Existing reports, metadata, serialized artifacts, and logs were kept unchanged, so historical path strings inside them may refer to the original locations. Consult [the move manifest](organization/move_manifest.json) to find the corresponding current paths. Paths in runnable project scripts were updated.
 
 `organization/source_backups/` contains the exact original bytes of every modified script, organized by its former path. No original data or log was removed or overwritten by this reorganization.
+
+See the [combined PMC-VQA report](benchmarks/pmc_vqa/COMBINED_REPORT.md) for benchmark metrics across all three models, including prompt counts and token usage.
+
+Read the [PMC-VQA analysis report](benchmarks/pmc_vqa/ANALYSIS_REPORT.md) for interpretation of the combined metrics and paired outcomes.

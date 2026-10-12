@@ -1,0 +1,24 @@
+{
+  "repo_id": "GL3MON/qwen3-vl-2b-medical-pmcvqa-grpo-merged",
+  "repo_url": "https://huggingface.co/GL3MON/qwen3-vl-2b-medical-pmcvqa-grpo-merged",
+  "commit_url": "https://huggingface.co/GL3MON/qwen3-vl-2b-medical-pmcvqa-grpo-merged/commit/ae90b803252e177726be85802a2d86624c9acf8f",
+  "revision": "ae90b803252e177726be85802a2d86624c9acf8f",
+  "private": false,
+  "checkpoint_step": 2100,
+  "base_model": "GL3MON/qwen3-vl-2b-medical-pmcvqa-sft-merged",
+  "uploaded_at": "2026-10-12T13:11:59.412221+00:00",
+  "verified_files": [
+    "model.safetensors",
+    "tokenizer_config.json",
+    "chat_template.jinja",
+    "processor_config.json",
+    "tokenizer.json",
+    "config.json",
+    "README.md",
+    "generation_config.json",
+    "evaluation/results_summary.json",
+    "evaluation/combined_metrics.json",
+    "evaluation/merge_validation.json"
+  ],
+  "merged_vision_and_language_adapters": true
+}

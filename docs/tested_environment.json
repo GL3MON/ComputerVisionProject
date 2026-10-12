@@ -1,0 +1,12 @@
+{
+  "torch": "2.11.0+cu129",
+  "transformers": "5.6.2",
+  "peft": "0.20.0",
+  "trl": "1.9.2",
+  "accelerate": "1.14.0",
+  "datasets": "5.0.1",
+  "openai": "2.24.0",
+  "medmnist": "3.0.2",
+  "huggingface-hub": "1.33.0",
+  "setuptools": "80.10.2"
+}

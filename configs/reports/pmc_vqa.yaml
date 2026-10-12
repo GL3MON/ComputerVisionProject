@@ -1,0 +1,8 @@
+runs:
+- name: Base
+  results: outputs/benchmarks/pmc_vqa/pmc_vqa_base_vllm_results.json
+- name: SFT
+  results: outputs/benchmarks/pmc_vqa/pmc_vqa_sft_vllm_results.json
+- name: GRPO checkpoint-2100
+  results: outputs/benchmarks/pmc_vqa/grpo_checkpoint_2100/results.json
+  summary: outputs/benchmarks/pmc_vqa/grpo_checkpoint_2100/results_summary.json

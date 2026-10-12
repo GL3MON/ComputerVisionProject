@@ -50,3 +50,11 @@ training_args.bin
 # Keep generated artifacts: reports, figures, metrics, benchmark JSON,
 # rollout JSONL/Parquet, raw attribution NPY/NPZ, and embeddings.
 # Do not blanket-ignore outputs/, *.pt, *.npy, *.npz, or *.parquet.
+
+# Package, test, lint, and atomic-write artifacts
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+build/
+dist/
+*.tmp

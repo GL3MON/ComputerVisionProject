@@ -1,0 +1,7 @@
+model: GL3MON/qwen3-vl-2b-medical-pmcvqa-sft-merged
+classifier: outputs/classifiers/medical/linear_classifier_best.pt
+dataset: pneumoniamnist
+image_size: 224
+samples: 25
+seed: 3407
+output_dir: outputs/analysis/attribution/medical

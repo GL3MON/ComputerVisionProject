@@ -1,0 +1,12 @@
+dataset: pneumoniamnist
+image_size: 224
+samples: 25
+seed: 3407
+output_dir: outputs/analysis/comparisons/attribution_differences
+models:
+  base:
+    model: Qwen/Qwen3-VL-2B-Instruct
+    classifier: outputs/classifiers/base/linear_classifier_best.pt
+  medical:
+    model: GL3MON/qwen3-vl-2b-medical-pmcvqa-sft-merged
+    classifier: outputs/classifiers/medical/linear_classifier_best.pt

@@ -1,0 +1,105 @@
+{
+  "dataset": "OctoMed/PMC-VQA",
+  "split": "test",
+  "examples": 2000,
+  "paired_comparisons": {
+    "pass1_all_examples": {
+      "examples": 2000,
+      "grpo_only_correct": 295,
+      "sft_only_correct": 299,
+      "both_correct": 532,
+      "both_incorrect": 874,
+      "net_grpo_correct_change": -4,
+      "difference_percentage_points": -0.2,
+      "exact_mcnemar_pvalue": 0.902048149401603
+    },
+    "pass2_all_examples": {
+      "examples": 2000,
+      "grpo_only_correct": 297,
+      "sft_only_correct": 280,
+      "both_correct": 840,
+      "both_incorrect": 583,
+      "net_grpo_correct_change": 17,
+      "difference_percentage_points": 0.8500000000000001,
+      "exact_mcnemar_pvalue": 0.5053887589167069
+    },
+    "pass1_common_success": {
+      "examples": 1995,
+      "grpo_only_correct": 294,
+      "sft_only_correct": 299,
+      "both_correct": 532,
+      "both_incorrect": 870,
+      "net_grpo_correct_change": -5,
+      "difference_percentage_points": -0.2506265664160401,
+      "exact_mcnemar_pvalue": 0.8695439478577405
+    },
+    "pass2_common_success": {
+      "examples": 1995,
+      "grpo_only_correct": 295,
+      "sft_only_correct": 280,
+      "both_correct": 840,
+      "both_incorrect": 580,
+      "net_grpo_correct_change": 15,
+      "difference_percentage_points": 0.7518796992481203,
+      "exact_mcnemar_pvalue": 0.5593653938565862
+    }
+  },
+  "attempt_analysis": [
+    {
+      "model": "Base",
+      "recovered_by_second_attempt": 213,
+      "first_attempt_misses_including_failures": 1392,
+      "recovery_fraction_of_all_first_attempt_misses": 0.15301724137931033,
+      "second_attempt_correct": 696,
+      "second_attempt_accuracy_all_examples": 0.348,
+      "second_attempt_input_tokens": 1090565,
+      "second_attempt_output_tokens": 4552850,
+      "second_attempt_total_tokens": 5643415,
+      "second_attempt_tokens_per_recovered_question": 26494.906103286386,
+      "responses_without_answer_tags": 1225,
+      "normalized_predictions_outside_supplied_options": 1376,
+      "completion_tokens_per_pass2_correct_question": 11580.689403166869
+    },
+    {
+      "model": "SFT",
+      "recovered_by_second_attempt": 289,
+      "first_attempt_misses_including_failures": 1169,
+      "recovery_fraction_of_all_first_attempt_misses": 0.24721984602224123,
+      "second_attempt_correct": 855,
+      "second_attempt_accuracy_all_examples": 0.4275,
+      "second_attempt_input_tokens": 1090565,
+      "second_attempt_output_tokens": 678857,
+      "second_attempt_total_tokens": 1769422,
+      "second_attempt_tokens_per_recovered_question": 6122.567474048443,
+      "responses_without_answer_tags": 0,
+      "normalized_predictions_outside_supplied_options": 12,
+      "completion_tokens_per_pass2_correct_question": 1200.4660714285715
+    },
+    {
+      "model": "GRPO checkpoint-2100",
+      "recovered_by_second_attempt": 310,
+      "first_attempt_misses_including_failures": 1173,
+      "recovery_fraction_of_all_first_attempt_misses": 0.26427962489343565,
+      "second_attempt_correct": 863,
+      "second_attempt_accuracy_all_examples": 0.4315,
+      "second_attempt_input_tokens": 617957,
+      "second_attempt_output_tokens": 690499,
+      "second_attempt_total_tokens": 1308456,
+      "second_attempt_tokens_per_recovered_question": 4220.825806451613,
+      "responses_without_answer_tags": 0,
+      "normalized_predictions_outside_supplied_options": 24,
+      "completion_tokens_per_pass2_correct_question": 1208.2137203166226
+    }
+  ],
+  "derived_changes": {
+    "sft_vs_base_pass1_percentage_points": 11.149999999999999,
+    "sft_vs_base_pass2_percentage_points": 14.950000000000008,
+    "sft_vs_base_mean_output_token_reduction_percent": 85.85866723827078,
+    "grpo_vs_sft_total_token_reduction_percent": 25.980981673744317,
+    "grpo_vs_sft_input_token_reduction_percent": 43.33606891840468,
+    "grpo_vs_sft_mean_output_token_increase_percent": 1.9176073355437806,
+    "base_attempts_at_4096_output_token_fraction": 0.337593984962406
+  },
+  "statistical_method": "Two-sided exact McNemar test, calculated as twice the smaller binomial tail on discordant pairs; exploratory question-level analysis, without image-cluster adjustment or repeated-generation/training seeds.",
+  "method_reference": "https://www.statsmodels.org/stable/generated/statsmodels.stats.contingency_tables.mcnemar.html"
+}

@@ -1,0 +1,8 @@
+model: Qwen/Qwen3-VL-2B-Instruct
+served_name: Qwen/Qwen3-VL-2B-Instruct
+host: 127.0.0.1
+port: 8000
+max_model_len: 10880
+gpu_memory_utilization: 0.35
+max_num_seqs: 16
+kv_cache_dtype: fp8

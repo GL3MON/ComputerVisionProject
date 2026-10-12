@@ -1,0 +1,5 @@
+model: Qwen/Qwen3-VL-2B-Instruct
+dataset: pneumoniamnist
+image_size: 224
+samples: 100
+output_dir: outputs/analysis/attention/qwen3vl_attention_maps

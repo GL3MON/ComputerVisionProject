@@ -1,0 +1,13 @@
+{
+  "repo_id": "GL3MON/qwen3-vl-2b-medical-pmcvqa-grpo-merged",
+  "revision": "ae90b803252e177726be85802a2d86624c9acf8f",
+  "weights_sha256": "654774a9ba65e2bb96d7b92413e117469fdd17e96f8fe39f122637b51ff0c839",
+  "remote_weights_checksum_matches": true,
+  "remote_configuration_loads": true,
+  "remote_processor_loads": true,
+  "architectures": [
+    "Qwen3VLForConditionalGeneration"
+  ],
+  "processor_class": "Qwen3VLProcessor",
+  "analysis_report_links_valid": true
+}

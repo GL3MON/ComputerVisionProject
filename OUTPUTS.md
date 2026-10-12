@@ -6,7 +6,7 @@ Generated results live under [`outputs/`](outputs/). This guide explains what ea
 
 | Folder | Contents and purpose |
 | --- | --- |
-| [`outputs/benchmarks/pmc_vqa/`](outputs/benchmarks/pmc_vqa/) | PMC-VQA benchmark result JSON files for the base and supervised fine-tuned (SFT) models. |
+| [`outputs/benchmarks/pmc_vqa/`](outputs/benchmarks/pmc_vqa/) | PMC-VQA benchmark result JSON files for the base and supervised fine-tuned (SFT) models, plus [`grpo_checkpoint_2100/`](outputs/benchmarks/pmc_vqa/grpo_checkpoint_2100/README.md) for the new checkpoint evaluation, predictions, summaries, and report. |
 | [`outputs/analysis/attention/`](outputs/analysis/attention/) | Vision attention figures in `qwen3vl_attention_maps/`. |
 | [`outputs/analysis/attribution/`](outputs/analysis/attribution/) | Separate `base/` and `medical/` folders containing per-image attribution figures and `attribution_metrics.csv`. |
 | [`outputs/analysis/comparisons/`](outputs/analysis/comparisons/) | `medical_vs_base/` contains model comparison figures; `attribution_maps/` contains paired attribution figures; `attribution_differences/` contains difference figures and `attribution_differences.csv`. |
@@ -47,3 +47,7 @@ Ignore rules affect Git tracking; they do not delete local files. Files already 
 ## Paths in older artifacts
 
 Historical logs and metadata were preserved during the reorganization, so they may still mention earlier locations. Use [`outputs/organization/move_manifest.json`](outputs/organization/move_manifest.json) to find their current paths. The original folder index is also available in [`outputs/README.md`](outputs/README.md).
+
+See the [combined PMC-VQA report](outputs/benchmarks/pmc_vqa/COMBINED_REPORT.md) for all three models, question and prompt counts, token usage, accuracy, and latency. CSV and JSON exports accompany the report.
+
+Read the [PMC-VQA analysis report](outputs/benchmarks/pmc_vqa/ANALYSIS_REPORT.md) for interpretation of model accuracy, prompt recovery, token usage, paired regressions, and comparison limits.

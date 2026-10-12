@@ -1,0 +1,31 @@
+{
+  "checks": [
+    {
+      "tower": "vision",
+      "merged_weight": "model.visual.blocks.0.attn.proj.weight",
+      "adapter_A": "base_model.model.model.visual.blocks.0.attn.proj.lora_A.weight",
+      "adapter_B": "base_model.model.model.visual.blocks.0.attn.proj.lora_B.weight",
+      "shape": [
+        1024,
+        1024
+      ],
+      "changed_elements": 159430,
+      "max_absolute_change": 6.103515625e-05,
+      "finite": true
+    },
+    {
+      "tower": "language",
+      "merged_weight": "model.language_model.layers.0.self_attn.k_proj.weight",
+      "adapter_A": "base_model.model.model.language_model.layers.0.self_attn.k_proj.lora_A.weight",
+      "adapter_B": "base_model.model.model.language_model.layers.0.self_attn.k_proj.lora_B.weight",
+      "shape": [
+        1024,
+        2048
+      ],
+      "changed_elements": 76853,
+      "max_absolute_change": 6.103515625e-05,
+      "finite": true
+    }
+  ],
+  "vision_and_language_updates_present": true
+}

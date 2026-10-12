@@ -1,0 +1,8 @@
+{
+  "checkpoint": "/home/harishr/MedGRPO/qwen3-vl-medical-grpo-vision-lora/checkpoint-2100",
+  "base_model": "GL3MON/qwen3-vl-2b-medical-pmcvqa-sft-merged",
+  "merged_model": "/home/harishr/Med/outputs/benchmarks/pmc_vqa/grpo_checkpoint_2100/merged",
+  "adapter_target_modules": "model\\.language_model\\..*\\.(q_proj|k_proj|v_proj|o_proj)|model\\.visual\\.blocks\\.\\d+\\.attn\\.(qkv|proj)",
+  "dtype": "bfloat16",
+  "all_lora_modules_merged": true
+}

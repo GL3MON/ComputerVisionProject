@@ -1,0 +1,104 @@
+{
+  "original_sources": [
+    {
+      "path": "launch_verifier.sh",
+      "backup": "archive/pre_modular_refactor/launch_verifier.sh",
+      "sha256": "d7b64e92df6659fd21951055d0c6209e779b86c4e6eebf6a69fedc072fe8bc98"
+    },
+    {
+      "path": "test_sft_checkpoint.py",
+      "backup": "archive/pre_modular_refactor/test_sft_checkpoint.py",
+      "sha256": "47f372702450e3234d38080641a10985d0a3db122d1fbfe53f1860b8a28b0511"
+    },
+    {
+      "path": "generate_attention_maps.py",
+      "backup": "archive/pre_modular_refactor/generate_attention_maps.py",
+      "sha256": "ba44266559845ee535b7418260f745be2c10315e819a4f10ab1ccbb345f98956"
+    },
+    {
+      "path": "merge_and_push.py",
+      "backup": "archive/pre_modular_refactor/merge_and_push.py",
+      "sha256": "bda0bc4deb2683f8ae06631b70cf8573901fb0bfb00a0c7de95f55ac46d5a6c9"
+    },
+    {
+      "path": "qwen_sft.yaml",
+      "backup": "archive/pre_modular_refactor/qwen_sft.yaml",
+      "sha256": "959b69e2d25bfbee2480a7138e5f4fd141030203bf2a522d9fff3b35a3be99fe"
+    },
+    {
+      "path": "accelerate_grpo.yaml",
+      "backup": "archive/pre_modular_refactor/accelerate_grpo.yaml",
+      "sha256": "2d7c76bc6dfc1ba93e97a564a9e90e82286bf15488add5d6dd1a66f992b201ad"
+    },
+    {
+      "path": "test_checkpoint.py",
+      "backup": "archive/pre_modular_refactor/test_checkpoint.py",
+      "sha256": "c08de680a9f768bcfb84272592899cbf616f8abb54e56d0c5139a64f065964cb"
+    },
+    {
+      "path": "run_med_benchmark.py",
+      "backup": "archive/pre_modular_refactor/run_med_benchmark.py",
+      "sha256": "d9f3646aaf0c4247c6a092e1f20e5dd9dd78535dd1a2628123c59ddad8cfd2af"
+    },
+    {
+      "path": "mig_patch.sh",
+      "backup": "archive/pre_modular_refactor/mig_patch.sh",
+      "sha256": "d565f96a8a4aada2600fffc2956881bd3211e3296c3e99be59aa9b4e28ba900e"
+    },
+    {
+      "path": "compare_attribution_diff.py",
+      "backup": "archive/pre_modular_refactor/compare_attribution_diff.py",
+      "sha256": "a3d74dbd22c9159194ca1922e9c61aa52e1b900249f0fa09f18f22a1b949098d"
+    },
+    {
+      "path": "sft_training_args.yaml",
+      "backup": "archive/pre_modular_refactor/sft_training_args.yaml",
+      "sha256": "3d1ee0bbdfd938c162e5ed52b00a0fd3b7daa359ced1160831f6a8187ce7c1c7"
+    },
+    {
+      "path": "run_sft.sh",
+      "backup": "archive/pre_modular_refactor/run_sft.sh",
+      "sha256": "eb35201cea9e5257bacf79d8e9a7f35ac62da2534cd6ac3eb4c483a485709cd4"
+    },
+    {
+      "path": "check_rollouts.py",
+      "backup": "archive/pre_modular_refactor/check_rollouts.py",
+      "sha256": "7a9636bf64ae3929f6bffb5ba23ad3262d4e98a97b4ec02070ad6355f261f09e"
+    },
+    {
+      "path": "check_rollout.sh",
+      "backup": "archive/pre_modular_refactor/check_rollout.sh",
+      "sha256": "bae93238a759207d23e1af5e0aa0065d063fc7d7fe5af20c5098dfaf3280feb5"
+    },
+    {
+      "path": "test_med_sft_checkpoint.py",
+      "backup": "archive/pre_modular_refactor/test_med_sft_checkpoint.py",
+      "sha256": "3e68cd2258657079999177f7747529078bb38432e9683f7b57a3c4148cba3508"
+    },
+    {
+      "path": "launch_grpo.sh",
+      "backup": "archive/pre_modular_refactor/launch_grpo.sh",
+      "sha256": "362d00ea6dcc9a3afecf2d0868b70bad9c2fb807ef88a680ba84a75118892768"
+    },
+    {
+      "path": "classifier_train.py",
+      "backup": "archive/pre_modular_refactor/classifier_train.py",
+      "sha256": "70620fed5ea8b97fcb835238399d75ec83a336a707f29a8bf583fa6654827b79"
+    },
+    {
+      "path": "generate_analysis_maps.py",
+      "backup": "archive/pre_modular_refactor/generate_analysis_maps.py",
+      "sha256": "6a69a33eb922db727e7ec09e46fd0a8c5faa0ab860d478cdc194ca679d7ef500"
+    },
+    {
+      "path": "grpo.py",
+      "backup": "archive/pre_modular_refactor/grpo.py",
+      "sha256": "82c9dd00655663074cdd26ba1b6c4a280482d4f2f375aa95a1af0e3ed51eeae5"
+    },
+    {
+      "path": "sft.py",
+      "backup": "archive/pre_modular_refactor/sft.py",
+      "sha256": "3bac914637d63135ff3d7293326dce7d9ceb7c01d42de75479f086bde5d06214"
+    }
+  ]
+}

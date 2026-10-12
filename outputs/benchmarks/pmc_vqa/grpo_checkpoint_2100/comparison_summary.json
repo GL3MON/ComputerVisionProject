@@ -1,0 +1,33 @@
+[
+  {
+    "label": "Base",
+    "result_file": "pmc_vqa_base_vllm_results.json",
+    "examples": 2000,
+    "attempt_counts": [
+      0,
+      2
+    ],
+    "accuracy_pass1": 0.304,
+    "accuracy_passk": 0.4105,
+    "failed_examples": 5
+  },
+  {
+    "label": "SFT",
+    "result_file": "pmc_vqa_sft_vllm_results.json",
+    "examples": 2000,
+    "attempt_counts": [
+      0,
+      2
+    ],
+    "accuracy_pass1": 0.4155,
+    "accuracy_passk": 0.56,
+    "failed_examples": 5
+  },
+  {
+    "label": "GRPO checkpoint-2100",
+    "examples": 2000,
+    "accuracy_pass1": 0.4135,
+    "accuracy_passk": 0.5685,
+    "failed_examples": 0
+  }
+]

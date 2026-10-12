@@ -1,0 +1,10 @@
+model: GL3MON/qwen3-vl-2b-medical-pmcvqa-sft-merged
+dataset: pneumoniamnist
+image_size: 224
+batch_size: 64
+classifier_batch_size: 256
+epochs: 20
+learning_rate: 0.001
+weight_decay: 0.0001
+seed: 3407
+output_dir: outputs/classifiers/medical

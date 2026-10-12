@@ -1,0 +1,11 @@
+{
+  "unit_tests": 20,
+  "cli_commands_checked": 14,
+  "direct_launchers_checked": 14,
+  "python_syntax": "passed",
+  "shell_syntax": "passed",
+  "saved_metric_regression": "all per-model metrics match",
+  "paired_outcomes": "-4 first-attempt, +17 best-of-two",
+  "archived_original_sources_verified": 20,
+  "existing_output_files_verified_unchanged": 2656
+}
